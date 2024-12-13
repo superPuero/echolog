@@ -4,7 +4,7 @@
 #include <string>
 
 #ifndef BIT
-	#define BIT(x) (1 << x)
+#define BIT(x) (1 << x)
 #endif // !BIT
 
 enum EchoLogColor {
@@ -50,10 +50,10 @@ namespace echolog {
 		case ECHO_COLOR_RED:
 			return ";31";
 			break;
-		case ECHO_COLOR_YELLOW:
+		case ECHO_COLOR_GREEN:
 			return ";32";
 			break;
-		case ECHO_COLOR_GREEN:
+		case ECHO_COLOR_YELLOW:
 			return ";33";
 			break;
 		case ECHO_COLOR_BLUE:
@@ -86,10 +86,10 @@ namespace echolog {
 		case ECHO_COLOR_RED:
 			return ";41";
 			break;
-		case ECHO_COLOR_YELLOW:
+		case ECHO_COLOR_GREEN:
 			return ";42";
 			break;
-		case ECHO_COLOR_GREEN:
+		case ECHO_COLOR_YELLOW:
 			return ";43";
 			break;
 		case ECHO_COLOR_BLUE:
